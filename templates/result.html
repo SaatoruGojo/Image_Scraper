@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Loaded</title>
+    <!-- Link to the CSS file for the bubblegum theme -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script>
+        setTimeout(function () {
+            window.location.href = "{{ url_for('homepage') }}";
+        }, 2000); // Redirect after a 2-second delay (adjust as needed)
+    </script>
+</head>
+<body>
+    <div class="content">
+        <h1 class="title">Image Loaded</h1>
+    </div>
+</body>
+</html>

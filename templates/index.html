@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search Page</title>
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<body>
+    <div class="content">
+        <h1 class="title">Search</h1>
+        <div class="search-form">
+            <form action="/scrapp" method="POST">
+                <input type="text" name="content" id="content" class="search-input" placeholder="Enter your search query">
+                <button type="submit" class="search-button">Search</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
