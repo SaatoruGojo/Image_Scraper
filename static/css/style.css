@@ -7,7 +7,8 @@ body, h1, form {
 /* Apply styles to the entire page */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffebef; /* Bubblegum pink background color */
+    background-color: #ffc3dc; /* Bubblegum pink background color */
+    /* Update the background color to the bubblegum pink (#ffc3dc) */
 }
 
 /* Style the container for the search page */
@@ -24,13 +25,18 @@ body {
 .title {
     text-align: center;
     font-size: 24px;
-    color: #333;
+    color: #ff3385; /* Darker pink text color */
     margin-bottom: 20px;
 }
 
 /* Style the search form container */
 .search-form {
     text-align: center;
+}
+
+/* Style the form group for labels and input fields */
+.form-group {
+    margin-bottom: 15px;
 }
 
 /* Style the search input field */
@@ -41,9 +47,10 @@ body {
     border-radius: 4px;
     font-size: 16px;
     outline: none;
+    display: block; /* Display inputs as block elements */
 }
 
-/* Style the search button */
+/* Style the submit button */
 .search-button {
     margin-top: 10px;
     padding: 10px 20px;
@@ -53,6 +60,8 @@ body {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    display: block; /* Display the button as a block element */
+    margin: 0 auto; /* Center the button horizontally */
 }
 
 /* Hover effect on the search button */
