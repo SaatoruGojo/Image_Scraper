@@ -375,3 +375,15 @@ NameError: name 'pymongo' is not defined
 2023-09-28 11:00:22,264 - INFO - 127.0.0.1 - - [28/Sep/2023 11:00:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2023-09-28 11:00:24,308 - INFO - 127.0.0.1 - - [28/Sep/2023 11:00:24] "GET / HTTP/1.1" 200 -
 2023-09-28 11:00:24,351 - INFO - 127.0.0.1 - - [28/Sep/2023 11:00:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-09-28 11:04:55,309 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.35:8000
+2023-09-28 11:04:55,309 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-28 11:05:09,243 - INFO - 127.0.0.1 - - [28/Sep/2023 11:05:09] "GET / HTTP/1.1" 200 -
+2023-09-28 11:05:09,343 - INFO - 127.0.0.1 - - [28/Sep/2023 11:05:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-09-28 11:05:15,337 - INFO - Images loaded for query: goku
+2023-09-28 11:05:15,341 - INFO - 127.0.0.1 - - [28/Sep/2023 11:05:15] "POST /scrapp HTTP/1.1" 200 -
+2023-09-28 11:05:15,402 - INFO - 127.0.0.1 - - [28/Sep/2023 11:05:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-09-28 11:05:17,960 - INFO - 127.0.0.1 - - [28/Sep/2023 11:05:17] "GET / HTTP/1.1" 200 -
+2023-09-28 11:05:17,998 - INFO - 127.0.0.1 - - [28/Sep/2023 11:05:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
